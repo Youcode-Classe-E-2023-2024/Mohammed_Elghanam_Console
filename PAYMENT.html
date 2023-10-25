@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slayder">
+        <img class="logo-1" src="IMAGE/Console_Plus_white.png" alt="">
+        <ul>
+            <li><a class="LIST-SLAYDER" href="index.html">Home</a></li>
+            <li><a class="LIST-SLAYDER" href="NEWS.html">News</a></li>
+            <li><a class="LIST-SLAYDER" href="REVIEWS.html">Reviews</a></li>
+        </ul>
+        <input type="text" placeholder="entre le name game" class="INPUT-SLAYDER">
+        <a class="sign-in" href="SIGNIN.html">Sign in</a>
+        <ion-icon name="menu-outline" class="menu" onclick="CHEKED()"></ion-icon>
+        <div class="menu-left">
+            <ul class="ull-menu">
+                <li><a class="LISTSLAYDER" href="index.html">Home</a></li>
+                <li><a class="LISTSLAYDER" href="NEWS.html">News</a></li>
+                <li><a class="LISTSLAYDER" href="REVIEWS.html">Reviews</a></li>
+                <a class="sign-in-1" href="SIGNIN.html">Sign in</a>
+            </ul>
+        </div>
+        
+    </div>
+    <section class="main-payment">
+        <div class="box-payment">
+            <h1>PAYMENT</h1>
+
+
+            <input class="PAYMENT-INPUT" type="text" placeholder="0000 0000 0000 0000">
+            <input class="PAYMENT-INPUT" type="text" placeholder="Name Card Holder">
+            <div class="BOX-DATE">
+                <input class="date-final" type="text" placeholder="Date De Fin">
+                <input class="annee" type="text" placeholder="Annee">
+            </div>
+            <input class="cvv" type="text" placeholder="CVV/CVC">
+            <a class="FREAM-PAYMENT" href="#">Subscribe</a>
+        </div>
+        <div class="FOURNISEUR">
+            <img class="logo-fourniseur" src="IMAGE/R.png" alt="">
+            <img class="logo-fourniseur" src="IMAGE/R (1).png" alt="">
+            <img class="logo-fourniseur" src="IMAGE/8410-western-union_102490.png" alt="">
+        </div>
+    </section>
+    <footer>
+        <div class="box-footer">
+            <div class="MOYEN-FOOTER">
+                <div class="mini-box-footer">
+                    <h1>SOCIAL</h1>
+                    <div class="icon-1">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                        <h4>whatsapp</h4>
+                    </div>
+                    <div class="icon-2">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <h4>facebook</h4>
+                    </div>
+                    <div class="icon-3">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <h4>instagram</h4>
+                    </div>
+                </div>
+                <div class="mini-box-footer">
+                    <h1>SUPPORT</h1>
+                    <p>CONSOL@gmail.com</p>
+                </div>
+                <div class="mini-box-footer">
+                    <h1>LANGUGE</h1>
+                    <p>ARABIC</p>
+                    <p>FRANCAIS</p>
+                    <p>english</p>
+
+                </div>
+                <div class="mini-box-footer">
+                    <h1>GET OUR FREE APPS</h1>
+                    <div class="install-magazin">
+                        <img class="logo-install" src="IMAGE/OIP.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        var para = document.querySelector(".menu-left");
+        function CHEKED() {
+            if (para.style.display == "block") {
+                para.style.display = "none";
+            } else {
+                para.style.display = "block";
+            }
+
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slayder">
+        <img class="logo-1" src="IMAGE/Console_Plus_white.png" alt="">
+        <ul>
+            <li><a class="LIST-SLAYDER" href="index.html">Home</a></li>
+            <li><a class="LIST-SLAYDER" href="NEWS.html">News</a></li>
+            <li><a class="LIST-SLAYDER" href="REVIEWS.html">Reviews</a></li>
+        </ul>
+        <input type="text" placeholder="entre le name game" class="INPUT-SLAYDER">
+        <a class="sign-in" href="SIGNIN.html">Sign in</a>
+        <ion-icon name="menu-outline" class="menu" onclick="CHEKED()"></ion-icon>
+        <div class="menu-left">
+            <ul class="ull-menu">
+                <li><a class="LISTSLAYDER" href="index.html">Home</a></li>
+                <li><a class="LISTSLAYDER" href="NEWS.html">News</a></li>
+                <li><a class="LISTSLAYDER" href="REVIEWS.html">Reviews</a></li>
+                <a class="sign-in-1" href="SIGNIN.html">Sign in</a>
+            </ul>
+        </div>
+        
+    </div>
+    <section class="main-subscrib">
+        <div class="GRAND-BOX-SUBSCRIB">
+            <img class="IMAGE-BOX" src="IMAGE/image 3 (2).png" alt="">
+            <div class="SUBSCRIBE-LEFT-IMAGE">
+                <h1>BATTLEFIELD V</h1>
+                <div class="checkbox1">
+                    <input class="checkbox" type="radio" name="radio1" id="radio1">
+                    <label for="radio1" class="RADIO12">6 Mounth</label>
+                    <h2 class="doolars">50$</h2>
+                </div>
+                <div class="checkbox2">
+                    <input class="checkbox" type="radio" name="radio1" id="radio2">
+                    <label for="radio2" class="RADIO12">12 Mounth</label>
+                    <h2 class="doolars">70$</h2>
+                </div>
+                <a class="Subscribe-BOTTON" href="PAYMENT.html">Subscribe</a>
+            </div>
+        </div>
+        <div class="BOX-DESCRIPTION">
+            <h1>DESCRIPTION</h1>
+            <hr>
+            <p>Tabletop Gaming is the UK’s only monthly magazine dedicated to all types of gaming on your tabletop. From
+                board games, card games, roleplaying games, miniatures games, war games and party games we have you
+                covered every month in 100 pages. Dive deep into how games are made in interviews with world famous
+                designers, discover new favourite games, learn new tricks with our painting guides, </p>
+        </div>
+    </section>
+    <footer>
+        <div class="box-footer">
+            <div class="MOYEN-FOOTER">
+                <div class="mini-box-footer">
+                    <h1>SOCIAL</h1>
+                    <div class="icon-1">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                        <h4>whatsapp</h4>
+                    </div>
+                    <div class="icon-2">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <h4>facebook</h4>
+                    </div>
+                    <div class="icon-3">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <h4>instagram</h4>
+                    </div>
+                </div>
+                <div class="mini-box-footer">
+                    <h1>SUPPORT</h1>
+                    <p>CONSOL@gmail.com</p>
+                </div>
+                <div class="mini-box-footer">
+                    <h1>LANGUGE</h1>
+                    <p>ARABIC</p>
+                    <p>FRANCAIS</p>
+                    <p>english</p>
+
+                </div>
+                <div class="mini-box-footer">
+                    <h1>GET OUR FREE APPS</h1>
+                    <div class="install-magazin">
+                        <img class="logo-install" src="IMAGE/OIP.jpg" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        var para = document.querySelector(".menu-left");
+        function CHEKED() {
+            if (para.style.display == "block") {
+                para.style.display = "none";
+            } else {
+                para.style.display = "block";
+            }
+
+        }
+    </script>
+</body>
+
+</html>

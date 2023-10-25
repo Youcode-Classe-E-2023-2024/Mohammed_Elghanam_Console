@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="slayder">
+        <img class="logo-1" src="IMAGE/Console_Plus_white.png" alt="">
+        <ul>
+            <li><a class="LIST-SLAYDER" href="index.html">Home</a></li>
+            <li><a class="LIST-SLAYDER" href="NEWS.html">News</a></li>
+            <li><a class="LIST-SLAYDER" href="REVIEWS.html">Reviews</a></li>
+        </ul>
+        <input type="text" placeholder="entre le name game" class="INPUT-SLAYDER">
+        <a class="sign-in" href="SIGNIN.html">Sign in</a>
+        <ion-icon name="menu-outline" class="menu" onclick="CHEKED()"></ion-icon>
+        <div class="menu-left">
+            <ul class="ull-menu">
+                <li><a class="LISTSLAYDER" href="index.html">Home</a></li>
+                <li><a class="LISTSLAYDER" href="NEWS.html">News</a></li>
+                <li><a class="LISTSLAYDER" href="REVIEWS.html">Reviews</a></li>
+                <a class="sign-in" href="SIGNIN.html">Sign in</a>
+            </ul>
+        </div>
+        
+    </div>
+    
+    <!----------------------------------------------------------------------------------------------------->
+    <section class="main">
+        
+        <div class="prancipal">
+            <div class="prancipal-titre">
+
+                <div class="titre">
+                    <h1 class="welcom">WELCOM TO</h1>
+                    <h1 class="CONSOL">CONSOL</h1>
+                </div>
+                <h1 class="MAGAZINE">MAGAZINE</h1>
+                <h3 class="we-would">We would like you to enjoy reading</h3>
+
+
+            </div>
+           
+        </div>
+        
+        <div class="BOX-DRAG-MAGAZINE">
+            <div class="FREAM-MAGAZINE">
+                <img class="BOX-IMAGE" src="IMAGE/image 10.png" alt="">
+                <h2 class="SPAYDER-MEN">FIFA 2020</h2>
+                <a class="READ-MORE" href="read-MORE.html">READ MORE</a>
+            </div>
+            <div class="FREAM-MAGAZINE">
+                <img class="BOX-IMAGE" src="IMAGE/image 11.png" alt="">
+                <h2 class="SPAYDER-MEN">CRYSIS2</h2>
+                <a class="READ-MORE" href="#">READ MORE</a>
+            </div>
+            <div class="FREAM-MAGAZINE">
+                <img class="BOX-IMAGE" src="IMAGE/image 15.png" alt="">
+                <h2 class="SPAYDER-MEN">POKIMON</h2>
+                <a class="READ-MORE" href="#">READ MORE</a>
+            </div>
+        </div>
+        <div class="BOX-DRAG-MAGAZINE">
+            <div class="FREAM-MAGAZINE">
+                <img class="BOX-IMAGE" src="IMAGE/image 10.png" alt="">
+                <h2 class="SPAYDER-MEN">WITCHER3</h2>
+                <a class="READ-MORE" href="#">READ MORE</a>
+            </div>
+            <div class="FREAM-MAGAZINE">
+                <img class="BOX-IMAGE" src="IMAGE/image 25.png" alt="">
+                <h2 class="SPAYDER-MEN">GTA V</h2>
+                <a class="READ-MORE" href="#">READ MORE</a>
+            </div>
+            <div class="FREAM-MAGAZINE">
+                <img class="BOX-IMAGE" src="IMAGE/image 28.png" alt="">
+                <h2 class="SPAYDER-MEN">ANTHEM</h2>
+                <a class="READ-MORE" href="#">READ MORE</a>
+            </div>
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------------->
+    <footer>
+        <div class="box-footer">
+            <div class="MOYEN-FOOTER">
+                <div class="mini-box-footer">
+                    <h1>SOCIAL</h1>
+                    <div class="icon-1">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                        <h4>whatsapp</h4>
+                    </div>
+                    <div class="icon-2">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <h4>facebook</h4>
+                    </div>
+                    <div class="icon-3">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <h4>instagram</h4>
+                    </div>
+                </div>
+                <div class="mini-box-footer">
+                    <h1>SUPPORT</h1>
+                    <p>CONSOL@gmail.com</p>
+                </div>
+                <div class="mini-box-footer">
+                    <h1>LANGUGE</h1>
+                    <p>ARABIC</p>
+                    <p>FRANCAIS</p>
+                    <p>english</p>
+
+                </div>
+                <div class="mini-box-footer">
+                    <h1>GET OUR FREE APPS</h1>
+                    <div class="install-magazin">
+                        <img class="logo-install" src="IMAGE/OIP.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        var para = document.querySelector(".menu-left");
+        function CHEKED() {
+            if (para.style.display == "block") {
+                para.style.display = "none";
+            } else {
+                para.style.display = "block";
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
